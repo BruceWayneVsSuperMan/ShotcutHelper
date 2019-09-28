@@ -6,13 +6,25 @@
   justify-content: center;
 
 }
+.card{
+  flex-direction: row;
+}
+
+.ant-card-body{
+padding: 3% 0% 5% 10%;
+}
+
 
 .card-style{
-  height: 1080px;
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: flex;
+  height: 800px;
+  flex-flow:column wrap;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-content: flex-start;
+}
+.gutter-example{
+  width: 100%;
+  height: 100%;
 }
 
 .gutter-example .ant-row > div {

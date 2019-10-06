@@ -10,12 +10,12 @@ class App extends Component {
     return (
       <div className="gutter-example">
         <div className="card-style" style={{ background: '#ECECEC', padding: '30px', display: 'flex' }}>
-          <Card title="Card title" bordered={false} style={{ width: 300, margin: 5 }}>
+          <Card title="Card title1" bordered={false} style={{ width: 300, margin: 5 }}>
             <p>Card content</p>
             <p>Card content</p>
             <p>Card content</p>
           </Card>
-          <Card title="Card title" bordered={false} style={{ width: 300, margin: 5 }}>
+          <Card title="Card title2" bordered={false} style={{ width: 300, margin: 5 }}>
             <Row style={{width:300}}>
               <Col span={7}>Ctrl+C</Col>
               <Col span={14}>复制</Col>
@@ -23,7 +23,7 @@ class App extends Component {
               <Col span={14}>粘贴</Col>
             </Row>
           </Card>
-          <Card title="Card title" bordered={false} style={{ width: 300, margin: 5 }}>
+          <Card title="Card title3" bordered={false} style={{ width: 300, margin: 5 }}>
             <p>Card content</p>
             <p>Card content</p>
             <p>Card content</p>

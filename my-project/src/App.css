@@ -6,60 +6,12 @@
   justify-content: center;
 
 }
-.card{
-  flex-direction: row;
-}
-
-.ant-card-body{
-padding: 3% 0% 5% 10%;
+.gutter-example{
+  /*height: 100%;*/
 }
 
 
 .card-style{
   display: flex;
-  height: 800px;
-  flex-flow:column wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-}
-.gutter-example{
-  width: 100%;
-  height: 100%;
-}
-
-.gutter-example .ant-row > div {
-  background: transparent;
-  border: 0;
-}
-.gutter-box {
-  background: #00a0e9;
-  padding: 3%;
-}
-
-.Colum-common{
-  border: 1px solid;
-  height: 100%;
-  width: 30%;
-  position: relative;
-  margin-left: 3%;
-  margin-bottom: 3%;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }

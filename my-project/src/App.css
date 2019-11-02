@@ -6,12 +6,27 @@
   justify-content: center;
 
 }
-.gutter-example{
-  /*height: 100%;*/
-}
 
 
 .card-style{
   display: flex;
   flex-direction: column;
+}
+
+.ant-card-head-title{
+  font-family: Microsoft YaHei;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.ant-row{
+  font-family: Microsoft YaHei;
+  font-size: 17px;
+}
+.function-name{
+  font-weight: bold;
+}
+.ant-col{
+  padding-bottom: 7px;
 }

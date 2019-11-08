@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Card,Col,Row } from 'antd';
 //import Button from 'antd/es/button';
 import './App.css';
+import gfwiname from 'gfwiname'
 
 import  DataHandler  from './database/handleData'
 
@@ -10,9 +11,13 @@ import  DataHandler  from './database/handleData'
 
 class App extends Component {
   
-
+  
 
   render() {
+    function getFrontName(props) {
+      console.log(gfwiname.gfwiname()) 
+    }
+
     function get_list(number) {
     return (
       <Card title={"标题"+number} bordered={false} style={{ width: 300, margin: 5 }}>
@@ -21,6 +26,7 @@ class App extends Component {
               <Col span={17}>Ctrl+C</Col>
               <Col span={7} className="function-name">粘贴</Col>
               <Col span={17}>Ctrl+V</Col>  
+              <button onClick={getFrontName()}></button>
             </Row>
       </Card>
     )
